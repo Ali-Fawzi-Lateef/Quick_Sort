@@ -1,6 +1,6 @@
 def quicksort(array): # declaring a function named quicksort.
   if len(array) < 2: 
-    # base case, arrays with 0 or 1 element are already "sorted"
+    # base case, arrays with 0 or 1 element are already "sorted".
     return array
   else:
     # recursive case
