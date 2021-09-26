@@ -3,7 +3,7 @@ def quicksort(array): # declaring a function named quicksort.
     # base case, arrays with 0 or 1 element are already "sorted".
     return array
   else:
-    # recursive case
+    # recursive case.
     pivot = array[0]
     # sub-array of all the elements less than the pivot
     less = [i for i in array[1:] if i <= pivot]
